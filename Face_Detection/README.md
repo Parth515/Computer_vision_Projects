@@ -1,5 +1,5 @@
 ## Face_detection.ipynb script uses two of the most basic algorithms: 
-1. Haar Cascade Classifier
+###1. Haar Cascade Classifier
 - Implemented using OpenCV's Cascade Classifier.
 - Based on Haar-like features and the Viola-Jones algorithm.
 - Detects faces by scanning the image at multiple scales using a cascade of simple classifiers.
@@ -12,7 +12,7 @@ Limitations:
 - Sensitive to lighting and pose variations.
 - Not as accurate as CNN-based methods.
 
-2. HOG (Histogram of Oriented Gradients)
+###2. HOG (Histogram of Oriented Gradients)
 - Implemented using dlib's HOG-based face detector.
 - Works by analyzing gradient orientation histograms in localized regions.
 - Uses sliding window + SVM classifier to detect faces.
@@ -36,13 +36,13 @@ The model outputs:
 - Relative bounding boxes around faces.
 - Confidence score for each detection.
 
-⚙️ How It Works
+How It Works
 1. Convert the frame to RGB.
 2. Pass the image to MediaPipe FaceDetection.
 3. The model returns detections (bounding boxes + scores).
 4. Draw bounding boxes using cv2.rectangle and display FPS.
 
-✅ Why BlazeFace?
+Why BlazeFace?
 - Extremely fast (real-time even on CPU).
 - Works well for videos and streams.
 - Robust to different face sizes and orientations.
