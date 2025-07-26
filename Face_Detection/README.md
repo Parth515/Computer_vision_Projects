@@ -12,6 +12,7 @@ Limitations:
 - Sensitive to lighting and pose variations.
 - Not as accurate as CNN-based methods.
 
+
 2. HOG (Histogram of Oriented Gradients)
 - Implemented using dlib's HOG-based face detector.
 - Works by analyzing gradient orientation histograms in localized regions.
