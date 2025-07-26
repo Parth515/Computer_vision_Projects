@@ -1,5 +1,5 @@
 ## Face_detection.ipynb script uses two of the most basic algorithms: 
-###1. Haar Cascade Classifier
+1. Haar Cascade Classifier
 - Implemented using OpenCV's Cascade Classifier.
 - Based on Haar-like features and the Viola-Jones algorithm.
 - Detects faces by scanning the image at multiple scales using a cascade of simple classifiers.
@@ -12,7 +12,7 @@ Limitations:
 - Sensitive to lighting and pose variations.
 - Not as accurate as CNN-based methods.
 
-###2. HOG (Histogram of Oriented Gradients)
+2. HOG (Histogram of Oriented Gradients)
 - Implemented using dlib's HOG-based face detector.
 - Works by analyzing gradient orientation histograms in localized regions.
 - Uses sliding window + SVM classifier to detect faces.
