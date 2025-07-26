@@ -3,7 +3,7 @@
 2. HOG (Histograms of oriented Gradients)
 
 
-# facedetection_basics.py script uses MediaPipe Face Detection, which is powered by the BlazeFace model:
+# facedetection_basics.py and facedetection_module.py scripts uses MediaPipe Face Detection, which is powered by the BlazeFace model:
 
 BlazeFace is a lightweight, real-time CNN (Convolutional Neural Network) optimized for mobile and edge devices.
 
