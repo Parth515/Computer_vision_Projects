@@ -1,9 +1,9 @@
-Face_detection.ipynb script uses the basic of face detection and use two of the most basic algorithms: 
+# Face_detection.ipynb script uses the basic of face detection and use two of the most basic algorithms: 
 1. Cascade Classifier
 2. HOG (Histograms of oriented Gradients)
 
 
-facedetection_basics.py script uses MediaPipe Face Detection, which is powered by the BlazeFace model:
+# facedetection_basics.py script uses MediaPipe Face Detection, which is powered by the BlazeFace model:
 
 BlazeFace is a lightweight, real-time CNN (Convolutional Neural Network) optimized for mobile and edge devices.
 
