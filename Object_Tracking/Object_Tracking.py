@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
  
-from __future__ import print_function # Python 2/3 compatibility
-import cv2 # Import the OpenCV library
-import numpy as np # Import Numpy library
+from __future__ import print_function 
+import cv2
+import numpy as np 
 
 def main():
     # Create a VideoCapture object
