@@ -1,10 +1,10 @@
 # AITrainer 🏋️‍♂️
 
-## 📝 Description
-**AITrainer** is a pose-tracking fitness assistant using computer vision. It leverages OpenCV and a custom `pose_module` (based on MediaPipe) to detect body movements in real time and count repetitions of exercises like squats, curls, or pushups.
+## Description
+AITrainer is a computer vision-based personal training assistant that uses pose estimation to track body movements and count exercise repetitions. It utilizes OpenCV for video processing and a custom `pose_module` built on MediaPipe to detect key body landmarks.
 
-## 🎯 Features
-- Real-time human pose estimation
-- Exercise repetition counter
-- Visual feedback overlay
-- FPS display for performance monitoring
+## Features
+- Real-time pose detection using webcam
+- Automatic repetition counting
+- Visual feedback overlay (landmarks, angle, count, FPS)
+- Modular pose tracking via `pose_module.py`
