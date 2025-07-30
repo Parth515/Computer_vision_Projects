@@ -1,30 +1,11 @@
 #!/usr/bin/env python
- 
-'''
-The Object Tracking Program!
- 
-Using real-time streaming video from your built-in webcam, this program:
-  - Creates a bounding box around a moving object
-  - Calculates the coordinates of the centroid of the object
-  - Tracks the centroid of the object
 
-'''
  
 from __future__ import print_function # Python 2/3 compatibility
 import cv2 # Import the OpenCV library
 import numpy as np # Import Numpy library
- 
-# Project: Object Tracking
-# Author: Addison Sears-Collins 
-# Website: https://automaticaddison.com
-# Date created: 06/13/2020
-# Python version: 3.7
- 
+
 def main():
-    """
-    Main method of the program.
-    """
- 
     # Create a VideoCapture object
     cap = cv2.VideoCapture(0)
  
