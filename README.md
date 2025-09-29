@@ -23,7 +23,7 @@ The goal is to build modular, reusable components that can evolve over time as I
 - Virtual Mouse — Controlling mouse pointer with hand gestures  
 - Virtual Painter — Drawing on screen with finger gestures  
 - Volume Hand Control — Controlling system volume through hand gestures
-- Image Classification - various method used to classified images, neural network, convolution neural network, also used existing model CIFAR-10.
+- Image Classification - Various methods used to classified images, neural network by extracting pixels, image features, convolution neural network, also used existing model CIFAR-10.
 
 Each project lives in its own folder with a dedicated README describing usage.
 
